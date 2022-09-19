@@ -1,6 +1,19 @@
 .text-right {
 	text-align: right;
 }
+.text-primary {
+  color:var(--primary) !important;
+}
+.text-secondary{
+  color:var(--secondary) !important;
+}
+.bg-primary{
+  background-color:var(--primary) !important;
+}
+.bg-secondary{
+  background-color:var(--secondary) !important;
+}
+
 
 .text-uppercase {
 	text-transform: uppercase !important;
@@ -68,6 +81,9 @@ img.img-fluid{
 	text-transform: uppercase;
 }
 
+.z-index-0{
+  z-index: 0 !important;
+}
 
 .m-5 {
 	margin: 5em !important;
@@ -125,6 +141,9 @@ img.img-fluid{
 	margin-left: 0.5em !important;
 }
 
+.ml-10 {
+	margin-left: 10em !important;
+}
 .mr-0 {
 	margin-right: 0em !important;
 }
@@ -153,6 +172,17 @@ img.img-fluid{
 	margin-right: 5em !important;
 }
 
+.mr-6 {
+	margin-right: 6em !important;
+}
+
+.mr-10 {
+	margin-right: 10em !important;
+}
+
+.mr-30 {
+	margin-right: 30em !important;
+}
 .mt-5 {
 	margin-top: 5em !important;
 }
@@ -181,6 +211,9 @@ img.img-fluid{
 	margin-top: 0em !important;
 }
 
+.mb-10 {
+	margin-bottom: 10em !important;
+}
 .mb-5 {
 	margin-bottom: 5em !important;
 }
@@ -244,9 +277,14 @@ img.img-fluid{
 	margin-right: 0em !important;
 }
 
-.my-05 {
+.mx-05 {
 	margin-left: 0.5em !important;
 	margin-right: 0.5em !important;
+}
+
+.my-05 {
+	margin-top: 0.5em !important;
+	margin-bottom: 0.5em !important;
 }
 
 .mx-1 {
@@ -302,6 +340,13 @@ img.img-fluid{
 	padding: 0em !important;
 }
 
+.pt-7 {
+	padding-top: 7em !important;
+}
+
+.pt-6 {
+	padding-top: 6em !important;
+}
 .pt-5 {
 	padding-top: 5em !important;
 }
@@ -413,7 +458,9 @@ img.img-fluid{
 .pr-5 {
 	padding-right: 5em !important;
 }
-
+.pr-6 {
+	padding-right: 6em !important;
+}
 .py-5 {
 	padding-top: 5em !important;
 	padding-bottom: 5em !important;
@@ -614,6 +661,24 @@ li.list-inline-item {
 	.md-text-left {
 		text-align: left !important;
 	}
+}
+
+
+@media screen and (min-width: 540px) {
+  .px-sm-5{
+    padding-left:5em !important;
+    padding-right:5em !important;
+  }
+  .mx-sm-5{
+    padding-left:0em !important;
+    padding-right:0em !important;
+  }
+  .ml-sm-5{
+    padding-left:0em !important;
+  }	
+  .mr-sm-5{
+    padding-right:0em !important;
+  }	
 }
 
 /* media */
