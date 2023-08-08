@@ -84,9 +84,12 @@ img.img-fluid{
 	text-transform: lowercase;
 }
 .text-shadow{
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+.text-shadow-7{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+  
 .z-index-0{
   z-index: 0 !important;
 }
